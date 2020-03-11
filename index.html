@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="DrajProj4css.css" ; />
+
+    <style>
+    </style>
+    <script src="script.js">    </script>
+</head>
+
+<body onload="initialize();">
+    <h1></h1>
+    <div class="box">
+        <h2>My Grocery List</h2>
+
+        <div id="groceries">
+
+        </div>
+        <hr>
+        <form id="groceryForm" name="mainInput">
+            Modify Grocery: <input style="width:100px" id="nameGive" name="fname" type="text" />
+            <button id="shiftUpX" type="button" onclick="shiftUp();">Shift Up</button>
+            <button id="shiftDownX" type="button" onclick="shiftDown();">Shift Down</button>
+            <button type="button" onclick="addGrocery();">Add Grocery</button>
+            <button type="button" onclick="deleteGrocery();">Delete Grocery</button>
+            <button type="button" onclick="toggleQuantity();">Toggle Quantity</button>
+            X: <input onchange="toggleQuantity(true);" value=1 style="width: 70px" id="numChange" name="nName" type="number"/>
+        </form>
+    </div>
+</body>
+
+</html>

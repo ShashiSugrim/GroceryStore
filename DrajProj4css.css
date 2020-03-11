@@ -1,0 +1,44 @@
+.box{
+	font:16pt calibri;
+	border:thick solid #778de6;
+	border-radius:10px;
+	width:1000px;
+	margin-left:100px;
+	padding:20px;
+	background-color:#f6ff73;
+    background-image: url('groceryLogo.png');
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-size:350px; 
+}
+#content {
+    position: relative;
+}
+
+body,html {
+  background: linear-gradient(65deg, #7a5cff, #f74578);
+  background-repeat:no-repeat;
+  height:100%;
+  width:100%;
+  margin:0;
+}
+button{
+	
+	background-color:lightblue;
+	border-radius:5px;
+}
+button {
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: orange; /* Green */
+  color: white;
+}
+input[type=text] {
+  border: 2px solid green;
+  border-radius: 4px;
+}
+input[type=number] {
+  border: 2px solid rgb(5, 247, 194);
+  border-radius: 4px;
+}
